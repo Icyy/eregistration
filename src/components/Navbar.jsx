@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <AppBar position="static" sx={{ width: "100%", margin: 0 }}>
+    <AppBar position="static" sx={{ width: "100%", margin: 0, backgroundColor:'black' }}>
       <Toolbar sx={{ justifyContent: "space-between" }}>
         <Typography variant="h6" component={Link} to="/" sx={{ textDecoration: "none", color: "white" }}>
           E-Registration
