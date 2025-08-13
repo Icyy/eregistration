@@ -9,16 +9,12 @@ import {
   IconButton,
   Divider,
 } from '@mui/material';
-// import {
-//   Description as DescriptionIcon,
-//   Facebook as FacebookIcon,
-//   Twitter as TwitterIcon,
-//   LinkedIn as LinkedInIcon,
-//   WhatsApp as WhatsAppIcon,
-//   Phone as PhoneIcon,
-//   Email as EmailIcon,
-//   LocationOn as LocationOnIcon,
-// } from '@mui/icons-material';
+import {
+  Description as DescriptionIcon,
+  Phone as PhoneIcon,
+  Email as EmailIcon,
+  LocationOn as LocationOnIcon,
+} from '@mui/icons-material';
 
 const Footer = () => {
   const quickLinks = [
@@ -50,9 +46,9 @@ const Footer = () => {
           {/* Company Info */}
           <Grid item xs={12} md={4}>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-              {/* <DescriptionIcon sx={{ mr: 1, fontSize: 32 }} /> */}
+              <DescriptionIcon sx={{ mr: 1, fontSize: 32 }} />
               <Typography variant="h6" sx={{ fontWeight: 700 }}>
-                LegalDocs
+                E-Registration
               </Typography>
             </Box>
             <Typography variant="body2" sx={{ mb: 3, opacity: 0.9 }}>
@@ -140,18 +136,18 @@ const Footer = () => {
             </Typography>
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                {/* <PhoneIcon sx={{ fontSize: 20 }} /> */}
+                <PhoneIcon sx={{ fontSize: 20 }} />
                 <Typography variant="body2">+91 98765 43210</Typography>
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                {/* <EmailIcon sx={{ fontSize: 20 }} /> */}
-                <Typography variant="body2">info@legaldocs.com</Typography>
+                <EmailIcon sx={{ fontSize: 20 }} />
+                <Typography variant="body2">omestates@gmail.com</Typography>
               </Box>
               <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 1 }}>
-                {/* <LocationOnIcon sx={{ fontSize: 20, mt: 0.2 }} /> */}
+                <LocationOnIcon sx={{ fontSize: 20, mt: 0.2 }} />
                 <Typography variant="body2">
-                  123 Business District<br />
-                  Mumbai, Maharashtra 400001
+                  Chembur<br />
+                  Mumbai, Maharashtra 
                 </Typography>
               </Box>
             </Box>
