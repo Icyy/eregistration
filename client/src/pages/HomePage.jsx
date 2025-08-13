@@ -1,21 +1,13 @@
 import React from "react";
 import { Box, Typography, Button, Container } from "@mui/material";
 import { Link } from "react-router-dom";
+import Hero from "../components/Hero";
+import Features from "../components/Features";
 
 const HomePage = () => {
   return (
-    <Box
-      sx={{
-        minHeight: "80vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        textAlign: "center",
-        px: 2,
-      }}
-    >
-      <Container maxWidth="md">
+    <>
+      {/* <Container maxWidth="md">
         <Typography variant="h3" gutterBottom>
           Welcome to E-Registration
         </Typography>
@@ -30,8 +22,11 @@ const HomePage = () => {
         >
           Create Agreement
         </Button>
-      </Container>
-    </Box>
+      </Container> */}
+
+      <Hero />
+      <Features />
+    </>
   );
 };
 
