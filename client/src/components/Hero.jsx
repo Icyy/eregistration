@@ -8,6 +8,10 @@ import {
   Grid,
   Paper,
 } from "@mui/material";
+import {
+  Calculate as CalculateIcon,
+  ArrowForward as ArrowForwardIcon,
+} from "@mui/icons-material";
 import { Link } from "react-router-dom";
 // import CreateAgreementDialog from "./CreateAgreementDialog";
 
@@ -91,7 +95,7 @@ const Hero = () => {
               variant="contained"
               color="secondary"
               size="large"
-              // endIcon={<ArrowForwardIcon />}
+              endIcon={<ArrowForwardIcon />}
               sx={{
                 px: 4,
                 py: 2,
@@ -107,10 +111,10 @@ const Hero = () => {
 
             <Button
               component={Link}
-              to="/calculator"
+              to="/stamp-duty-fees"
               variant="outlined"
               size="large"
-              // endIcon={<CalculateIcon />}
+              endIcon={<CalculateIcon />}
               sx={{
                 px: 4,
                 py: 2,
